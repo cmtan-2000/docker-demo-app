@@ -30,3 +30,6 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build
+
+      - name: Docker Build
+        run: docker build -t docker-demo:ci .
