@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "JWzW39wU0vk=",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\.NET\\docker-learning\\DockerDemo\\DockerDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cmtan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\cmtan\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\cmtan\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "D:\\Coding\\.NET\\docker-learning\\DockerDemo\\DockerDemo.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Coding\\.NET\\docker-learning\\DockerDemo\\DockerDemo.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
